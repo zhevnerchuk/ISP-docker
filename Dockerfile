@@ -16,7 +16,7 @@ RUN pip install numpy scipy matplotlib Pillow
 # Add necessary files. Good practice to do it at the end
 # in order to avoid reinstallation of dependencies when files change
 ADD Code ./Code
-ADD Latex ./Latex
+ADD Report ./Report
 ADD Results ./Results
 ADD run.sh ./
 

@@ -11,7 +11,7 @@ WORKDIR Project
 RUN apt-get update && apt-get install -y texlive
 
 # Install necessary libraries
-RUN pip install numpy scipy matplotlib PIL
+RUN pip install numpy scipy matplotlib Pillow
 
 # Add necessary files. Good practice to do it at the end
 # in order to avoid reinstallation of dependencies when files change
